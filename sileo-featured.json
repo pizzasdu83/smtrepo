@@ -1,28 +1,18 @@
 {
   "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 15,
   "banners": [
     {
-      "class": "FeaturedBanner",
-      "title": "Nanerasingh Repo",
-      "package": "com.manu.time",
+      "url": "https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/syoboneko/head.png",
+      "title": "Syoboneko",
+      "package": "com.pixelomer.oneko",
       "hideShadow": false
     },
     {
-      "class": "FeaturedBanner",
-      "title": "GradientBubble",
-      "package": "com.manu.gradientgububblecolor",
-      "hideShadow": false
-    },
-    {
-      "class": "FeaturedBanner",
-      "title": "TheosManagerPro",
-      "package": "com.manu.theosmanagerpro",
-      "hideShadow": false
-    },
-    {
-      "class": "FeaturedBanner",
-      "title": "DialerGradient",
-      "package": "com.manu.dialergradient",
+      "url": "https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/head.png",
+      "title": "Slippery bar",
+      "package": "com.pizzasdu83.homebartint",
       "hideShadow": false
     }
   ]
