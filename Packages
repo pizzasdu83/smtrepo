@@ -26,7 +26,7 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.2.5
-Size: 117 130
+Size: 117130
 Installed-Size: 116
 SHA1: 4a3988e6fc3d1ef875c50c29c4d68cb4ebcac37b
 SHA256: 430370e2f64f9432d705179efdb0974202a37f9e3964bbfe1445fa2678dcf494
