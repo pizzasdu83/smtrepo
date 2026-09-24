@@ -8,7 +8,6 @@
     <style>
         
         html[data-theme="light"] {
-            --bg-color: #f2f2f7;
             --card-bg: #ffffff;
             --card-border: #e5e5ea;
             --text-color: #000000;
@@ -36,7 +35,6 @@
         }
 
         :root {
-            --bg-color: #121214;
             --card-bg: #1c1c1e;
             --card-border: #2c2c2e;
             --text-color: #f2f2f7;
@@ -48,7 +46,6 @@
         @media (prefers-color-scheme: light) {
             
         html[data-theme="light"] {
-            --bg-color: #f2f2f7;
             --card-bg: #ffffff;
             --card-border: #e5e5ea;
             --text-color: #000000;
@@ -76,7 +73,6 @@
         }
 
         :root {
-                --bg-color: #f2f2f7;
                 --card-bg: #ffffff;
                 --card-border: #e5e5ea;
                 --text-color: #000000;
@@ -88,7 +84,6 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
             padding: 16px;
@@ -190,8 +185,55 @@
             padding-bottom: 16px;
         }
     </style>
+	<link rel="stylesheet" href="../bg.css">
 </head>
 <body>
+	<input type="image" src="https://raw.githubusercontent.com/pizzasdu83/petwaitlist/refs/heads/main/gcookie.png" id="cookie-manager-btn" onclick="openPopup()" width="60" height="60">
+	<div id="cookie-popup">
+		<h2>cookies gestion</h2>
+		<p>Colected cookies : <span id="cookie-count">0</span></p>
+		<div id="big-cookie" onclick="clickCookie()"></div>
+		<p>🎯 Goal : <span id="goal">1000</span> cookies</p>
+		<div id="store">
+			<h3>Market</h3>
+			<button class="store-btn" onclick="buyUpgrade('click')">+1 per clic<br>(10 cookies)</button><button class="store-btn" onclick="buyUpgrade('auto')">Auto-click<br>(30 cookies)</button>
+		</div>
+
+		<div id="color-menu" style="margin-top:15px; display:none;">
+			<h3>🎨 Choose your background</h3>
+				<label>
+					<input type="radio" name="bgmode" value="free" checked onchange="setBackgroundMode(this.value)">Free color
+				</label><br>
+					<input type="color" id="colorPicker" onchange="setColor(this.value)">
+				<label>
+					<input type="radio" name="bgmode" value="preset-gradient" onchange="setBackgroundMode(this.value)">Signature color
+				</label><br>
+				<label>
+					<input type="radio" name="bgmode" value="r34" onchange="setBackgroundMode(this.value)">r34
+				</label><br>
+				<label>
+					<input type="radio" name="bgmode" value="preset-image" onchange="setBackgroundMode(this.value)">Suyu
+				</label><br>
+				<label>
+					<input type="radio" name="bgmode" value="persimage" checked onchange="setBackgroundMode(this.value)">Image
+				</label>
+				<label>
+				<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+				</label><br>
+				<label>
+					<input type="radio" name="bgmode" value="fallin" checked onchange="setBackgroundMode(this.value)">Boykisser
+				</label><br>
+			
+				<button class="clrInterval" onclick="clearInterval(fallin);" enabled>stop boykissing</button>
+				
+		</div>
+
+		<div id="choices" style="margin-top:15px;">
+			<button class="accept-btn" onclick="acceptCookies()" enabled>Accept</button>
+			<button class="refuse-btn" onclick="refuseCookies()" disabled>Deny</button>
+		</div>
+	</div>
+	
     <div class="header">
         <h1>Slippery Bar</h1>
         <p>Customize the home bar :)</p>
@@ -243,6 +285,8 @@
     <div class="footer">
         &copy; SaaS
     </div>
+	
+	<script src="../bg.js"></script>
 
 </body>
 </html>
