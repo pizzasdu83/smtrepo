@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>
-    (function() {
-        const saved = localStorage.getItem('theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', saved);
-    })();
-</script>
     <meta charset="utf-8">
-    <title>AutoScrollx — Manu (nanerasingh)</title>
+    <title>Syoboneko</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <style>
@@ -198,58 +192,42 @@
     </style>
 </head>
 <body>
-<button class="theme-toggle-depict" onclick="toggleDepictTheme()" id="depict-theme-btn">☀️ Light</button>
-<script>
-    function updateDepictBtn(t) {
-        const btn = document.getElementById('depict-theme-btn');
-        if (btn) btn.innerText = t === 'dark' ? '☀️ Light' : '🌙 Dark';
-    }
-    function toggleDepictTheme() {
-        const cur = document.documentElement.getAttribute('data-theme') || 'dark';
-        const next = cur === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('theme', next);
-        updateDepictBtn(next);
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-        updateDepictBtn(document.documentElement.getAttribute('data-theme') || 'dark');
-    });
-</script>
-
     <div class="header">
-        <h1>📜 AutoScrollx</h1>
-        <p>System-wide Smooth Auto Scrolling Tweak for iOS</p>
+        <h1>Slippery Batt</h1>
+        <p>Customize the battery :)</p>
     </div>
 
     <div class="card">
-        <div class="card-title">✨ Description</div>
+        <div class="card-title">Description</div>
         <p style="font-size: 14px; margin: 0;">
-            <strong>AutoScrollx</strong> allows you to automatically and smoothly scroll through long web pages, articles, feeds, and applications system-wide on iOS with adjustable speeds and gesture controls.
+            Change the home <strong>battery</strong> the way you want
         </p>
     </div>
 
     <div class="card">
-        <div class="card-title">📸 Screenshots</div>
+        <div class="card-title">Screenshots</div>
         <div class="screenshots">
-            <img src="./Autoscrollx.PNG" alt="AutoScrollx Interface">
+            <img src="https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/Screenshots/slipbatt1.png" alt="AutoScrollx Interface">
+            <img src="https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/Screenshots/slipbatt2.png" alt="AutoScrollx Interface">
+            <img src="https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/Screenshots/slipbatt3.png" alt="AutoScrollx Interface">
         </div>
     </div>
 
     <div class="card">
-        <div class="card-title">🚀 Features</div>
+        <div class="card-title">Features</div>
         <ul>
-            <li><strong>System-wide Auto Scrolling:</strong> Works smoothly in Safari, social apps, and standard table views.</li>
-            <li><strong>Speed Adjustment:</strong> Easily tweak scroll velocity to match your reading speed.</li>
-            <li><strong>Gesture &amp; Toggle Controls:</strong> Start, pause, or resume auto scrolling with simple gestures or taps.</li>
-            <li><strong>Preference Settings:</strong> Configure speed presets and activation controls via Settings.</li>
+			<li><strong>Color sliders / hex input to change the color of the battery</li>
+			<li><strong>Gradient mode with the ability to change the angle</li>
+			<li><strong>Reverse mode to chage the battery's direction</li>
+			<li><strong>Percentage position changer</li>
         </ul>
     </div>
 
     <div class="card">
-        <div class="card-title">📱 Compatibility</div>
+        <div class="card-title">Compatibility</div>
         <div class="table-row">
             <span style="color: var(--text-secondary);">iOS / iPadOS</span>
-            <span>iOS 14.0 – 16.x</span>
+            <span>iOS 15.0 – 26.x</span>
         </div>
         <div class="table-row">
             <span style="color: var(--text-secondary);">Jailbreaks</span>
@@ -258,22 +236,12 @@
     </div>
 
     <div class="card">
-        <div class="card-title">📥 Links</div>
-        <a href="https://nanerasingh.github.io/" class="btn">Add Repository</a>
-        <a href="https://twitter.com/nanerasingh" class="btn" style="background: #1da1f2;">Twitter (@nanerasingh)</a>
+        <div class="card-title">Links</div>
+        <a href="../../index.html" class="btn">Add Repository</a>
     </div>
 
     <div class="footer">
-        &copy; Nanerasingh
-    </div>
-
-
-    <div class="donate-card-depict">
-        <h3 style="margin: 0 0 6px 0; font-size: 16px; color: var(--text-color);">❤️ Support Tweak Development</h3>
-        <p style="font-size: 13px; color: var(--text-secondary); margin: 0 0 10px 0;">If you enjoy this tweak, consider supporting future updates and development!</p>
-        <a href="https://www.paypal.me/nanerasingh" target="_blank" rel="noopener" class="donate-btn-depict">
-            ☕ Donate via PayPal (@nanerasingh)
-        </a>
+        &copy; SaaS
     </div>
 
 </body>

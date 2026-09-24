@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>
-    (function() {
-        const saved = localStorage.getItem('theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', saved);
-    })();
-</script>
     <meta charset="utf-8">
     <title>Syoboneko</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -198,24 +192,6 @@
     </style>
 </head>
 <body>
-<button class="theme-toggle-depict" onclick="toggleDepictTheme()" id="depict-theme-btn">☀️ Light</button>
-<script>
-    function updateDepictBtn(t) {
-        const btn = document.getElementById('depict-theme-btn');
-        if (btn) btn.innerText = t === 'dark' ? '☀️ Light' : '🌙 Dark';
-    }
-    function toggleDepictTheme() {
-        const cur = document.documentElement.getAttribute('data-theme') || 'dark';
-        const next = cur === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('theme', next);
-        updateDepictBtn(next);
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-        updateDepictBtn(document.documentElement.getAttribute('data-theme') || 'dark');
-    });
-</script>
-
     <div class="header">
         <h1>Syoboneko</h1>
         <p>Syobon as the oneko tweak</p>
