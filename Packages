@@ -43,11 +43,11 @@ Maintainer: SaaS
 Author: SaaS
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
-Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperyBar/refs/heads/main/SlipperyBarIcon.png
+Icon: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/bIcon.png
 Size: 674240
 Installed-Size: 658
 SHA1: f2e6917b219cd89935f7c5794bf1d98926ecc919
 SHA256: d7ec4c7fe44f96f3466732f3ac934f53dce16cd62bffb677402868ac09d71df4
 MD5sum: f37ff8241313a93a9994905156848b49
 Filename: pkgs/com.pizzasdu83.slipperybatt_0.1.0_iphoneos-arm64.deb
-Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/bIcon.png
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/depiction.json
