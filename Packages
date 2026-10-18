@@ -8,11 +8,11 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.42.69
-Size: 788238
-Installed-Size: 769
-SHA1: 4dbc5801718682e7c4224f886a087e32faa00e6d
-SHA256: fa652de67f400ba3f86020d31126e4bbe51bc03940b4963f725a133fb93517a1
-MD5sum: 0bbe41b3b558c62d9f7355448ba49b96
+Size: 788246
+Installed-Size: 770
+SHA1: 9cac899302855915f29191616f9e83668d201e22
+SHA256: a61f6b63823b854410a98d17411acfd8eeaae0f9b261340fe9b35836c24d1352
+MD5sum: 9878a8763aed580c0b3d52de2cd25df0
 Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/depiction.json
 
@@ -44,10 +44,10 @@ Author: SaaS
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
 Icon: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/bIcon.png
-Size: 674240
-Installed-Size: 658
-SHA1: f2e6917b219cd89935f7c5794bf1d98926ecc919
-SHA256: d7ec4c7fe44f96f3466732f3ac934f53dce16cd62bffb677402868ac09d71df4
-MD5sum: f37ff8241313a93a9994905156848b49
+Size: 674782
+Installed-Size: 659
+SHA1: 6565af54e855b7026da7e9d272927776b0521bab
+SHA256: c77876472c1686f520493b0ae8e4f1b1045ac88ad3dfa88645c71c17ceea6e03
+MD5sum: 0a3b4794f08b2efc68801db011654ad7
 Filename: pkgs/com.pizzasdu83.slipperybatt_0.1.0_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/depiction.json
