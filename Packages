@@ -51,3 +51,19 @@ SHA256: c77876472c1686f520493b0ae8e4f1b1045ac88ad3dfa88645c71c17ceea6e03
 MD5sum: 0a3b4794f08b2efc68801db011654ad7
 Filename: pkgs/com.pizzasdu83.slipperybatt_0.1.0_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/depiction.json
+
+Package: com.pizzasdu83.slipperyassets
+Name: Slippery Assets
+Icon: https://raw.githubusercontent.com/pizzasdu83/pizzasdu83.github.io/refs/heads/main/favicon.ico
+Description: Shared icons used by the my tweaks
+Maintainer: SaaS
+Author: SaaS
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 1.0
+Size: 82968
+Installed-Size: 84
+SHA1: 60000e1ed894745648e26a0b67f93a0932d77361
+SHA256: a65d057fc78dfd1c9b63e7465c69b4ed44d8b3109e223fda7c090af2fc2125e4
+MD5sum: 82428e560f3526d2ccb088e6910be380
+Filename: pkgs/com.pizzasdu83.slipperyassets_1.0_iphoneos-arm64.deb
