@@ -67,3 +67,57 @@ SHA1: 60000e1ed894745648e26a0b67f93a0932d77361
 SHA256: a65d057fc78dfd1c9b63e7465c69b4ed44d8b3109e223fda7c090af2fc2125e4
 MD5sum: 82428e560f3526d2ccb088e6910be380
 Filename: pkgs/com.pizzasdu83.slipperyassets_1.0_iphoneos-arm64.deb
+
+Package: de.finngaida.daynightswitch
+Name: Slippery Switch
+Depends: firmware (>= 14.0), mobilesubstrate, com.pizzasdu83.slipperyassets
+Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperySwitch/refs/heads/main/icno.png
+Description: Add some style to your switches
+Maintainer: SaaS
+Author: Finn Gaida
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.2
+Size: 123874
+Installed-Size: 124
+SHA1: 09e0c80f1bde98f4418a241a601cbe226b7a5713
+SHA256: 42c78c005208a00ba2e16fa63cb24d179d184e5b54fae7d3bf6e24d9b99bd3f9
+MD5sum: 75435d6499392dd53708d105c0ff825b
+Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
+
+Package: de.finngaida.daynightswitch
+Name: Slippery Switch
+Depends: firmware (>= 14.0), mobilesubstrate, com.pizzasdu83.slipperyassets
+Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperySwitch/refs/heads/main/icno.png
+Description: Add some style to your switches
+Maintainer: SaaS
+Author: Finn Gaida
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2
+Size: 124492
+Installed-Size: 124
+SHA1: b58941abe922fa70a49a8826aae350aa2696206e
+SHA256: be287f389e13bb5f0923892bbf6733ffd47c7027afdba9fc0a837ef27c9b43e1
+MD5sum: c960eb9b682e216f7b63fd048e1f3809
+Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
+
+Package: de.finngaida.daynightswitch
+Name: Slippery Switch
+Depends: firmware (>= 14.0), mobilesubstrate, com.pizzasdu83.slipperyassets
+Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperySwitch/refs/heads/main/icno.png
+Description: Add some style to your switches
+Maintainer: SaaS
+Author: Finn Gaida
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2
+Size: 122988
+Installed-Size: 124
+SHA1: 1570fb623ffdf1b9a4512d3ddf0471a28f148821
+SHA256: 796681333ed6885ca543e20e6c33f09ebee297c461dafadf5e149a2f12f135d0
+MD5sum: 3179dfc23db4319e905e259a3fd0f1bf
+Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm64e.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
