@@ -59,6 +59,38 @@ Description: Shared icons used by the my tweaks
 Maintainer: SaaS
 Author: SaaS
 Section: Utilities
+Architecture: iphoneos-arm
+Version: 1.0
+Size: 82930
+Installed-Size: 84
+SHA1: 7607f772ecead9938b36af009f3253292dc87c50
+SHA256: ca18f918382b909df02339ca4a233c32d4d459cb04bfdc7a5de12914bfdeadf5
+MD5sum: cd704c0fcee1b92995c36df6f6eeeab8
+Filename: pkgs/com.pizzasdu83.slipperyassets_1.0_iphoneos-arm.deb
+
+Package: com.pizzasdu83.slipperyassets
+Name: Slippery Assets
+Icon: https://raw.githubusercontent.com/pizzasdu83/pizzasdu83.github.io/refs/heads/main/favicon.ico
+Description: Shared icons used by the my tweaks
+Maintainer: SaaS
+Author: SaaS
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0
+Size: 82932
+Installed-Size: 84
+SHA1: 1713e6d86e026582ab4db45f8964417976fb5296
+SHA256: a466abc60d0042baf50323fe8c9eba065ee196217d4d4ae429dad0060c316019
+MD5sum: 606624d21c6532a8ce035e475afb23a0
+Filename: pkgs/com.pizzasdu83.slipperyassets_1.0_iphoneos-arm64e.deb
+
+Package: com.pizzasdu83.slipperyassets
+Name: Slippery Assets
+Icon: https://raw.githubusercontent.com/pizzasdu83/pizzasdu83.github.io/refs/heads/main/favicon.ico
+Description: Shared icons used by the my tweaks
+Maintainer: SaaS
+Author: SaaS
+Section: Utilities
 Architecture: iphoneos-arm64
 Version: 1.0
 Size: 82968
@@ -78,12 +110,12 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm
 Version: 1.3
-Size: 123866
+Size: 124134
 Installed-Size: 124
-SHA1: 3cf071928d143f467e5e6b36d7de2453570ff613
-SHA256: 381434bafa4c77874c962f5b613a80d04e18a63a44e43088337afca92cedd5fa
-MD5sum: 1544050987b2795cb8b818122ad6f889
-Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm.deb
+SHA1: e3b104900759c08a8fc9b83c2c1376fc1703bcbe
+SHA256: e9bb7dc11d047a1c199985310671d4a2c01a8332b08b5ce24f05789d9eac452e
+MD5sum: 6c4886233f1284fd6c3371bba8d69d45
+Filename: pkgs/de.finngaida.daynightswitch_1.3_iphoneos-arm.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
 
 Package: de.finngaida.daynightswitch
@@ -96,12 +128,12 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3
-Size: 124996
+Size: 124708
 Installed-Size: 124
-SHA1: 272122c4b12e4d1a9d4b118ce36623c483e3cfe0
-SHA256: f1de0223015b3e38071c8ea555cc53d82888a66a3004f9ef405c002cd3fd84fc
-MD5sum: d32ef7271cec162befd0074ba4f7a2f3
-Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm64.deb
+SHA1: 9673b15b40585c3a3a3d2b8b46d9910752f6d54c
+SHA256: ca91ea68af6ceb836d8cbcb4e6a97fb85a2e85cfa07f1d2c426b87e663726789
+MD5sum: 4c1522ad6c206e1653f93c64189bff8c
+Filename: pkgs/de.finngaida.daynightswitch_1.3_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
 
 Package: de.finngaida.daynightswitch
@@ -114,10 +146,10 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3
-Size: 122708
+Size: 122324
 Installed-Size: 120
-SHA1: c79443af04faaeb7dab5defed879fb50cf58ba14
-SHA256: b98cc4a64948d5d978175a128a8769e41918af3d4d237cad2e83d2d1a752b4d7
-MD5sum: 6bd16ed5fd6326cb15cf9c6ee2b5cceb
-Filename: pkgs/de.finngaida.daynightswitch_1.2_iphoneos-arm64e.deb
+SHA1: 8cb614dd0558e3cbc734538977892e56f786b8e0
+SHA256: 9a17682f1980ead58636ca67eda405bebb5ecf095d3c299b8ccdd37599a870b3
+MD5sum: 01de016d6d36c18d6bdcf635d452b0c4
+Filename: pkgs/de.finngaida.daynightswitch_1.3_iphoneos-arm64e.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
