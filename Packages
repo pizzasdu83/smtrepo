@@ -16,6 +16,24 @@ MD5sum: 9878a8763aed580c0b3d52de2cd25df0
 Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/depiction.json
 
+Package: com.pizzasdu83.homebartint
+Name: Slippery Bar
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.pizzasdu83.slipperyassets
+Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperyBar/refs/heads/main/SlipperyBarIcon.png
+Description: Recolor the home bar (simple color and gradient) and more :)
+Maintainer: SaaS
+Author: SaaS
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.42.69
+Size: 202722
+Installed-Size: 200
+SHA1: 20264ecc582954d53386ef052191adc98e9a596b
+SHA256: 34193c5b020f5809166b56cb13dec38017ecbbeef879df9ca74944883b2f1472
+MD5sum: 695082013d0d88149877b3b935d5eaaa
+Filename: pkgs/com.pizzasdu83.homebartint_1.42.69_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/depiction.json
+
 Package: com.pixelomer.oneko
 Name: Syoboneko
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
@@ -50,6 +68,24 @@ SHA1: 6565af54e855b7026da7e9d272927776b0521bab
 SHA256: c77876472c1686f520493b0ae8e4f1b1045ac88ad3dfa88645c71c17ceea6e03
 MD5sum: 0a3b4794f08b2efc68801db011654ad7
 Filename: pkgs/com.pizzasdu83.slipperybatt_0.1.0_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/depiction.json
+
+Package: com.pizzasdu83.slipperybatt
+Name: Slippery Batt
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.pizzasdu83.slipperyassets
+Icon: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/bIcon.png
+Description: Recolor the battery icon (solid color, gradient, Low Power Mode, low battery and a 3DS mode)
+Maintainer: SaaS
+Author: SaaS
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Size: 89088
+Installed-Size: 88
+SHA1: c90b494a603c8fa96a9d98f6993d5e568bbe98b4
+SHA256: 46ee83648cc16427ef227899d21ba5ff58e47993d060f10b96a59cedb11d5a5d
+MD5sum: c9c891be794df3fbc8a46a63a5545406
+Filename: pkgs/com.pizzasdu83.slipperybatt_0.1.1_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/depiction.json
 
 Package: com.pizzasdu83.slipperyassets
