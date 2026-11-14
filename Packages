@@ -189,3 +189,45 @@ SHA256: 9a17682f1980ead58636ca67eda405bebb5ecf095d3c299b8ccdd37599a870b3
 MD5sum: 01de016d6d36c18d6bdcf635d452b0c4
 Filename: pkgs/de.finngaida.daynightswitch_1.3_iphoneos-arm64e.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/switch/depiction.json
+
+Package: com.xsxs18.lumenboard
+Name: Slippery Board
+Depends: mobilesubstrate, firmware (>= 17.0)
+Icon: https://raw.githubusercontent.com/pizzasdu83/LumenBoard/refs/heads/main/.github/icon.png
+Description: Icon theme engine for iOS 17 - 26. Works with SnowBoard, Anemone and WinterBoard themes.
+Maintainer: xsxs18-dev
+Author: xsxs18-dev
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.8.0
+Provides: com.spark.snowboard, com.anemonetheming.anemone, winterboard
+Conflicts: com.spark.snowboard, com.anemonetheming.anemone, winterboard, com.artikus.neonboard, com.xsxs18.neonboard, com.xsxs18.avalanche, com.xsxs18.lumen
+Replaces: com.xsxs18.avalanche, com.xsxs18.lumen
+Size: 691950
+Installed-Size: 676
+SHA1: 85a8930d3d7c6b2845faa20f2d95bb8a1d36f53a
+SHA256: c2d181ef231c4cfaf61240e9e9c06cbf1d128b1e47c4c96edbdb3c2a2b884209
+MD5sum: 2ac924e17f3b3c77c3c2db702d74a7e7
+Filename: pkgs/com.xsxs18.lumenboard_1.8.0_iphoneos-arm64e.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/board/depiction.json
+
+Package: com.xsxs18.lumenboard
+Name: Slippery Board
+Depends: mobilesubstrate, firmware (>= 17.0)
+Icon: https://raw.githubusercontent.com/pizzasdu83/LumenBoard/refs/heads/main/.github/icon.png
+Description: Icon theme engine for iOS 17 - 26. Works with SnowBoard, Anemone and WinterBoard themes.
+Maintainer: xsxs18-dev
+Author: xsxs18-dev
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.8.0
+Provides: com.spark.snowboard, com.anemonetheming.anemone, winterboard
+Conflicts: com.spark.snowboard, com.anemonetheming.anemone, winterboard, com.artikus.neonboard, com.xsxs18.neonboard, com.xsxs18.avalanche, com.xsxs18.lumen
+Replaces: com.xsxs18.avalanche, com.xsxs18.lumen
+Size: 698686
+Installed-Size: 684
+SHA1: 5e2a4d2cb570f96422aa006f373c7f7a234e9237
+SHA256: 96c0b237e42a3ac92ad70daf0fe17426d825e232fc2e4fa8da32bff39cad674c
+MD5sum: c5609fc934d6e20af02b9a5395f1d6fe
+Filename: pkgs/com.xsxs18.lumenboard_1.8.0_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/board/depiction.json
