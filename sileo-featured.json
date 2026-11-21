@@ -4,6 +4,12 @@
   "itemCornerRadius": 15,
   "banners": [
     {
+      "url": "https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/board/head.png",
+      "title": "Slippery Board",
+      "package": "com.xsxs18.lumenboard",
+      "hideShadow": false
+    },
+    {
       "url": "https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybatt/head.png",
       "title": "Slippery Batt",
       "package": "com.pizzasdu83.slipperybatt",
